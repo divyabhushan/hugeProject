@@ -6,6 +6,10 @@ adminTasks(){
 useradd userTemp -G home
 }
 
+quickfix_func(){
+  echo "Bug fixed."
+}
+
 main()
 {
 adminTasks
@@ -19,9 +23,7 @@ echo "changes staged"
 echo "changes only in working dir"
 echo "HOTFIX ADDED !!!"
 echo "quickfix branch"
-quickfix_func(){
-  echo "Bug fixed."
-}
+quickfix_func
 }
 
 main $@
