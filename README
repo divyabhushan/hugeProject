@@ -1,1 +1,11 @@
 Readme file.
+This project is to understand the git LFS(Large Filesystem Storage).
+How Git manages, stores and retrieves the huge files.
+
+Install 'git lfs' and declare the large files to be tracked as git lfs files.
+Follow a normal git workflow procedure of adding,editing, committing and pushing the files(including the LFS files) to the remote repository.
+
+The difference would be that LFS will be stored on a different storage and a pointer reference will alone be available from your Git server.
+
+
+Reference: https://help.github.com/en/articles/versioning-large-files
